@@ -64,7 +64,7 @@ EMAIL=your-email@example.com
 GITHUB_URL=https://github.com/Ecode2/hng_12_stage_0
 SECRET_KEY=your-secret-key
 DEBUG=True
-ALLOWED_HOSTS=127.0.0.1,localhost,your-deployment-url.com
+ALLOWED_HOSTS=127.0.0.1,localhost,hng-12-stage-0-9sef.onrender.com
 ```
 
 ---
@@ -109,7 +109,7 @@ The API will be available at:
 #### **cURL Request**  
 
 ```bash
-curl -X GET http://your-deployment-url.com/
+curl -X GET [https://hng-12-stage-0-9sef.onrender.com/api/info/](https://hng-12-stage-0-9sef.onrender.com/api/info/)
 ```
 
 #### **Python (requests module)**  
@@ -117,6 +117,6 @@ curl -X GET http://your-deployment-url.com/
 ```python
 import requests
 
-response = requests.get("http://your-deployment-url.com/")
+response = requests.get("https://hng-12-stage-0-9sef.onrender.com/api/info/")
 print(response.json())
 ```
